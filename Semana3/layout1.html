@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/ifrog.jpg" alt="logo">
+        </div>    
+        <div class="login">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <label for="username">Usúario:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Entrar">
+        </div>
+        <div class="cadastro">
+            <h1>Cadastro</h1>
+            <form action="/submit_registration" method="post">
+                <label for="username">Usúario:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <label for="confirm_password">Confirmar Senha:</label><br>
+                <input type="password" id="confirm_password" name="confirm_password" required><br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </header>
+
+    <aside>
+        <div class="menu-lateral">
+            <h1>Aqui você vai ver toda especie de reptil do planeta terra.</h1>
+            <ul>
+                <li><a href="#">Tartaruga</a></li>
+                <li><a href="#"> Serpente</a></li>
+                <li><a href="#">Sapo</a></li>
+                <li><a href="#">Jacaré</a></li>
+            </ul>
+        </div>
+        <div class="pesquisa">
+            <h1>Pesquisa</h1>
+        <form action="/search" method="get">
+        <label for="query">Procure a especie que voce deseja:</label><br>
+        <input type="search" id="query" name="query" required><br>
+        <input type="submit" value="Buscar">
+        </form>
+        <div class="propaganda">
+            <img src="imgs/propaganda.jpg" alt="propaganda">
+        </div>
+        </div> 
+    </aside>
+
+    <main>
+        <div class="conteudo-principal">
+            
+            <p>Os répteis são uma classe fascinante de animais que têm intrigado cientistas e entusiastas da natureza por séculos. <i>Eles</i> habitam uma variedade de ambientes ao redor do mundo, desde desertos escaldantes até florestas tropicais úmidas e oceanos profundos. Caracterizam-se por características distintivas, como a presença de escamas, respiração pulmonar e reprodução por meio de ovos amnióticos.
+
+                A pele escamosa é uma característica marcante dos répteis, fornecendo proteção contra predadores e desidratação, além de ajudar na regulação térmica. Algumas espécies, como cobras e lagartos, trocam de pele regularmente para remover parasitas e permitir o crescimento contínuo.
+                
+                A diversidade de répteis é impressionante, desde pequenos lagartos até gigantes como crocodilos e tartarugas marinhas. Eles exibem uma variedade de adaptações ao ambiente, incluindo camuflagem e venenos letais, como o das cascavéis e cobras coral.
+                
+                Em termos de reprodução, os répteis são ovíparos, colocando ovos com casca resistente que protege o embrião em desenvolvimento. Algumas espécies cuidam de seus ovos e filhotes após a eclosão, enquanto outras depositam os ovos e os abandonam para se desenvolverem por conta própria.
+                
+                Além de desempenharem papéis importantes nos ecossistemas, os répteis enfrentam ameaças como perda de habitat, caça ilegal e mudanças climáticas, levando muitas espécies ao declínio e à ameaça de extinção. A conservação é crucial para proteger esses animais incríveis e garantir sua sobrevivência futura.</p>
+        </div>
+        <div class="banner"></div>
+        <div class="conteudo-do-trabalho"></div>
+        <div class="conteudos"></div>
+    </main>
+</body>
+</html>
+<head>
